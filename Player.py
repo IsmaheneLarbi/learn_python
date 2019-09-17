@@ -10,7 +10,7 @@ class Player:
 
     def list_achievements(self):
         """"instance methods HAVE access to BOTH class and instance attributes"""
-        print("I have won", self.grd_slams, "grand slams and ", self.masters)
+        print("I have won", self.grd_slams, "grand slams and ", self.masters, "ATP masters 1000")
 
     @classmethod
     def incommon(chkil):
@@ -25,13 +25,13 @@ class Player:
         print(f'I came {msg}')
 
 roger = Player("Roger Federer", "G.O.A.T", 20, 28)
-print("My name is ", roger.name, " and I am nicknamed", roger.title, "ATP masters 1000")
+print("My name is ", roger.name, " and I am nicknamed", roger.title)
 roger.list_achievements()
 
 print()
 
 rafa = Player("Rafael Nadal", "Geronimo", 19, 35)
-print("My name is ", rafa.name, " and I am nicknamed", rafa.title, "ATP masters 1000")
+print("My name is ", rafa.name, " and I am nicknamed", rafa.title)
 rafa.list_achievements()
 
 novak = Player()
